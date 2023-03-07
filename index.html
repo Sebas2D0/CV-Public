@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="funciones.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('botonreferencias').click(function(){
+            $("h4").toggle(1000);
+          });
+        });
+        </script>
+</head>
+
+<body>
+    <header id="header">
+        <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="Foto de perfil">
+        <h1><b>Leon</b> Adams</h1>
+        <hr>
+        Desarrollador Front end
+			<hr>
+		</header>
+		<main>
+			<article id="mainLeft">
+				<section>
+					<h2>Contacto</h2>
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:leon.adams@example.com">leon.adams@example.com</a>
+                        <p>
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <a href="github.com/gh-leonadams123">gh-leonadams123</a>
+                        </p>
+                        <p>
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <a href="limkedin.com/linkedin-leonadams123">linkedin-leonadams123</a>
+                        </p>
+                    </p>
+				</section>
+				<section>
+					<h2>Habilidades</h2>
+                    <p>*Pellentesque ex est, cursus et</p>
+                    <p>*Pellentesque condimentum suscipit enim. Phasellus vel.</p>
+                    <p>*Suspendisse et ex lobortis, condimentum.</p>
+				</section>
+				<section>
+					<h2>Educacion</h2>
+                    <p>*Fusce justo tortor, vehicula quis ullamcorper et, iaculis et turpis.</p>
+                    <p>*Duis efficitur urna ac neque blandit vehicula ac at leo.</p>
+				</section>            
+			</article>
+			<article id="mainright">
+				<section>
+					<h3>Sobre mi</h3>
+                    <p>Cras volutpat hendrerit imperdiet. Fusce non eleifend lectus, posuere scelerisque felis. Aenean laoreet, libero a molestie luctus, nibh tortor efficitur nunc, quis condimentum mauris libero sed nibh. Duis libero neque, volutpat vitae placerat in, malesuada at odio. Pellentesque egestas viverra justo sit amet maximus. Donec non turpis in augue fermentum gravida quis non diam. Nullam luctus metus eu euismod commodo. Vivamus eu lacus mattis, posuere enim a, consequat lorem. Ut nec faucibus lorem. Nunc vestibulum eget ligula in dignissim. Vestibulum aliquam leo id scelerisque dictum. Vivamus commodo metus est, sed aliquet elit commodo sit amet. Aliquam egestas congue imperdiet. Donec a egestas ligula. Curabitur dictum vestibulum massa, eget luctus erat porttitor ut.</p>
+				</section>
+				<section>
+					<h3>Experiencias laborales</h3>
+                    <p>Mauris ullamcorper tempus velit, vel fringilla turpis sagittis eget. Etiam sed magna in diam sollicitudin hendrerit. Duis malesuada lorem at tincidunt molestie. Donec nec consequat urna. Vivamus commodo hendrerit libero, non tristique magna viverra tristique. Vestibulum varius nibh leo. Pellentesque ac enim pretium, lobortis sem a, malesuada tellus. Pellentesque venenatis, nunc eget malesuada bibendum, quam massa condimentum diam, eget ultricies lectus metus quis ante. Etiam posuere malesuada nisi id dignissim. Suspendisse ut sollicitudin lectus, mattis suscipit leo. Mauris a dui at massa dapibus tincidunt hendrerit eu elit. Aenean porta tempus velit, sed tincidunt lectus semper id. Morbi pellentesque sit amet sapien nec porta.</p>
+				</section>
+                <section>
+                    <h3>Referencias</h3>
+                    <button onclick="mostraronofuncion()">clickea para mostrar las referencias</button>
+                    <div id="referencias">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis sem id urna viverra laoreet. Sed id imperdiet leo, vel rutrum ex. Nam in dui vitae dui viverra dictum quis et libero. Praesent sodales leo libero, sed tincidunt tellus sodales ac. Sed commodo ut sapien sed mattis. Etiam aliquet venenatis sem non volutpat.
+                    </div>
+                </section>
+			</article>
+		</main>
+	</body>
+</html>
